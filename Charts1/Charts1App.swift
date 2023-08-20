@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct Charts1App: App {
+    //var meterVM = PreviewData()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            ChartByMonthView(meter: Meter.dummyMeter)
+                //.environmentObject(meterVM)
         }
     }
 }

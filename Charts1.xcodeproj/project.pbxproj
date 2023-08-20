@@ -11,6 +11,15 @@
 		4D9156E129CA235200F16FB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9156E029CA235200F16FB2 /* ContentView.swift */; };
 		4D9156E329CA235300F16FB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D9156E229CA235300F16FB2 /* Assets.xcassets */; };
 		4D9156E629CA235300F16FB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D9156E529CA235300F16FB2 /* Preview Assets.xcassets */; };
+		4D9156ED29CA239900F16FB2 /* ChartByMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9156EC29CA239900F16FB2 /* ChartByMonthView.swift */; };
+		4D9156EF29CA23D900F16FB2 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9156EE29CA23D900F16FB2 /* PreviewData.swift */; };
+		4D9156F129CA23FB00F16FB2 /* Meter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9156F029CA23FA00F16FB2 /* Meter.swift */; };
+		4D9156F329CA241100F16FB2 /* Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9156F229CA241100F16FB2 /* Reading.swift */; };
+		4D9156F529CA241F00F16FB2 /* ReadingByYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9156F429CA241E00F16FB2 /* ReadingByYear.swift */; };
+		4D9156F729CA248900F16FB2 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9156F629CA248900F16FB2 /* Enums.swift */; };
+		4D9156F929CA250F00F16FB2 /* ExtensionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9156F829CA250F00F16FB2 /* ExtensionDate.swift */; };
+		4D9156FB29CA252100F16FB2 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9156FA29CA252100F16FB2 /* Location.swift */; };
+		4DA4904029CB21A5008BE43A /* ChartByYearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA4903F29CB21A5008BE43A /* ChartByYearView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		4D9156E029CA235200F16FB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4D9156E229CA235300F16FB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D9156E529CA235300F16FB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D9156EC29CA239900F16FB2 /* ChartByMonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartByMonthView.swift; sourceTree = "<group>"; };
+		4D9156EE29CA23D900F16FB2 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		4D9156F029CA23FA00F16FB2 /* Meter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meter.swift; sourceTree = "<group>"; };
+		4D9156F229CA241100F16FB2 /* Reading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reading.swift; sourceTree = "<group>"; };
+		4D9156F429CA241E00F16FB2 /* ReadingByYear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingByYear.swift; sourceTree = "<group>"; };
+		4D9156F629CA248900F16FB2 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		4D9156F829CA250F00F16FB2 /* ExtensionDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionDate.swift; sourceTree = "<group>"; };
+		4D9156FA29CA252100F16FB2 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		4DA4903F29CB21A5008BE43A /* ChartByYearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartByYearView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +73,15 @@
 				4D9156E029CA235200F16FB2 /* ContentView.swift */,
 				4D9156E229CA235300F16FB2 /* Assets.xcassets */,
 				4D9156E429CA235300F16FB2 /* Preview Content */,
+				4D9156EC29CA239900F16FB2 /* ChartByMonthView.swift */,
+				4D9156EE29CA23D900F16FB2 /* PreviewData.swift */,
+				4D9156FA29CA252100F16FB2 /* Location.swift */,
+				4D9156F029CA23FA00F16FB2 /* Meter.swift */,
+				4D9156F229CA241100F16FB2 /* Reading.swift */,
+				4D9156F429CA241E00F16FB2 /* ReadingByYear.swift */,
+				4D9156F629CA248900F16FB2 /* Enums.swift */,
+				4D9156F829CA250F00F16FB2 /* ExtensionDate.swift */,
+				4DA4903F29CB21A5008BE43A /* ChartByYearView.swift */,
 			);
 			path = Charts1;
 			sourceTree = "<group>";
@@ -137,7 +164,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9156EF29CA23D900F16FB2 /* PreviewData.swift in Sources */,
+				4D9156ED29CA239900F16FB2 /* ChartByMonthView.swift in Sources */,
+				4D9156FB29CA252100F16FB2 /* Location.swift in Sources */,
+				4D9156F329CA241100F16FB2 /* Reading.swift in Sources */,
+				4D9156F529CA241F00F16FB2 /* ReadingByYear.swift in Sources */,
+				4DA4904029CB21A5008BE43A /* ChartByYearView.swift in Sources */,
+				4D9156F129CA23FB00F16FB2 /* Meter.swift in Sources */,
 				4D9156E129CA235200F16FB2 /* ContentView.swift in Sources */,
+				4D9156F729CA248900F16FB2 /* Enums.swift in Sources */,
+				4D9156F929CA250F00F16FB2 /* ExtensionDate.swift in Sources */,
 				4D9156DF29CA235200F16FB2 /* Charts1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
